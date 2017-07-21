@@ -26,7 +26,7 @@ i{ display: inline-block;}
 .topbar .subMenu .icon-new{  background: transparent url(../images/spr-v2.png) no-repeat -129px 0; }
 .topbar .icons{ padding-top: 25px; padding-left: 17px;}
 .topbar .icons > .search{  width: 27px; height: 27px; background: transparent url(../images/spr-v2.png) no-repeat -8px 0; margin-right: 13px;}
-.topbar .icons > .mobile{  width: 21px; height: 27px; background: transparent url(../images/spr-v2.png) no-repeat -45px 0; margin-right: 13px;}
+.topbar .icons > .mobile{  width: 21px; height: 27px; background: transparent url(../images/spr-v2.png) no-repeat -45px 0; margin-left: 5px;}
 .topbar .userNavigation{ width:350px; position: relative;  z-index: 0;  float: right; padding-top: 10px;}
 .topbar .userNavigation > .icons-user ,.operate-user{ float: left;}
 .topbar .userNavigation .icons-user .avatar{ width: 80px; height: 80px; background: transparent url(../images/spr-v2.png) no-repeat 0 -169px;
