@@ -56,7 +56,7 @@ $('.newest-wrapper > .newest-right > .tabs-nav-right > .hero-nav').on('mouseover
 /**
  * last-nav
  **/
-$('.newest-recommend > .tabs-nav-last > .last-nav').on('click' , 'li' , function (e) {
+$('.newest-recommend > .tabs-nav-last > .last-nav').on('mouseover' , 'li' , function (e) {
     var li = e.currentTarget;  //首先获取到li，当前被点击的元素
     var $li = $(li);
     $li.addClass('current');
@@ -84,8 +84,8 @@ $('.newest-recommend > .tabs-nav-last > .last-nav').on('click' , 'li' , function
 $(function(){
     $('#slides').slidesjs({
         navigation:false,
-        width: 780,
-        height: 330,
+        width: 820,
+        height: 347,
         callback: {
             loaded: function(){
                 var texts = ['无极剑圣斩星魔剑','庆LPL登顶亚洲','LPL15日赛程','洲际赛冠军之选','新英雄凯隐大揭秘']
