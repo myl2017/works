@@ -4,7 +4,7 @@
 
 window.onscroll = function(e){
     var scrollTop = $(window).scrollTop();
-    if(scrollTop>100){
+    if(scrollTop>=100){
         $('.banner-wrapper').addClass('active');
         $('.banner-wrapper .big-video').addClass('inactive');
         $('.menu-wrapper').addClass('active');
