@@ -201,13 +201,13 @@ i{ display: inline-block;}
 
 .recommend-content > ul > li{ float: left; width: 186px; height: 155px;  margin-right: 20px; margin-bottom: 20px;}
 .recommend-content > ul > li > a{  width: 100%; height: 100%; position: relative; }
-.recommend-content > ul > li > a:hover > .rv-cover{ display: block; width: 186px; height: 110px; background: #000;  background: rgba(0,0,0,0.4);}
-.recommend-content > ul > li > a:hover > .rv-cover-icon{ display: block; background: url(../images/bg-icon-v.png) no-repeat 0 0;
-    position: absolute;width: 65px; height: 65px; left: 60px; bottom: 30px;}
 .recommend-content > ul > li > a > img{ width: 186px; height: 110px; background-size: cover; position: absolute; }
-.recommend-content > ul > li > a > .rv-shadow{ display: block; position: absolute;  background: rgba(0,0,0,0.5); text-align: right; width: 186px; height: 30px; line-height: 30px;margin-top: 80px;}
+.recommend-content > ul > li > a > .rv-shadow{ display: block; position: absolute; top: 80px; background: rgba(0,0,0,0.5); text-align: right; width: 186px; height: 30px; line-height: 30px;}
 .rv-shadow > i{  padding-right: 5px; font-style: normal; color: #ddd;}
-.recommend-content > ul > li > a > h5{  width: 186px;  position: absolute; z-index: 1; font-weight: normal;  line-height: 20px; height: 40px; overflow: hidden; font-size: 14px; margin-top: 110px; }
+.recommend-content > ul > li > a > h5{  position: absolute; top: 115px; z-index: 1; font-weight: normal;  width: 186px; height: 40px; line-height: 20px; overflow: hidden; font-size: 14px;}
+.recommend-content > ul > li > a:hover > .rv-cover{ position: absolute; top: 0; left: 0; display: block; width: 186px; height: 110px; background: #000;  background: rgba(0,0,0,0.4);}
+.recommend-content > ul > li > a:hover > .rv-cover-icon{ position: absolute; top: 20px; left: 60px; bottom: 30px; width: 65px; height: 65px; display: block; background: url(../images/bg-icon-v.png) no-repeat 0 0; }
+
 .newest-recommend > .recommend-list > .recommend-content:nth-child(2){ display: none;}
 .tabs-nav-last > .last-nav > li.current{  color: #d1ab57; font-weight: bold; border-bottom: 3px solid #d1ab57;}
 .newest-recommend > .recommend-list > .recommend-content:first-child.active{ display: block;}
