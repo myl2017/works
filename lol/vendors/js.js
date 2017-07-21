@@ -85,7 +85,7 @@ $(function(){
     $('#slides').slidesjs({
         navigation:false,
         width: 820,
-        height: 347,
+        height: 346,
         callback: {
             loaded: function(){
                 var texts = ['无极剑圣斩星魔剑','庆LPL登顶亚洲','LPL15日赛程','洲际赛冠军之选','新英雄凯隐大揭秘']
